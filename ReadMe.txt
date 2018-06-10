@@ -31,15 +31,15 @@ Problems running the Game?
 
 Credits:
 
-	Programmers:	Anthony "D4RK354B3R" Susvasquez
+	Programmers:	Miguel "D4RK354B3R" Susvasquez
 			Guilherme "Goose" Carvalho
 			Mekan "Mekan" Michaud.
 			
-	Art Assets:	Anthony "D4RK354B3R" Susvasquez
+	Art Assets:	Miguel "D4RK354B3R" Susvasquez
 			Guilherme "Goose" Carvalho
 			Michael "Makeii" Sonier
 	
-	Mapping:	Anthony "D4RK354B3R" Susvasquez
+	Level Design:	Miguel "D4RK354B3R" Susvasquez
 			Guilherme "Goose" Carvalho
 
 	Music:		Blue Beat 01 by ERH
@@ -49,6 +49,5 @@ Credits:
 	Sounds:		Mekan "Mekan" Michaud
 			Michael "Makeii" Sonier"
 			Various freesound sites. 
-			(Srsly, I couldn't make an electric shock sound if my life depended on it.)
 
 
