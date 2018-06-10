@@ -1,0 +1,300 @@
+/*
+	These are the styles to include in hubstub.html when it is generated.
+ */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Lucida Sans Unicode', 'Segoe UI', Tahoma, 'Bitstream Vera Sans', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	background: white;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+#content {
+	width: 600px;
+	height: 450px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#content > div {
+	padding: 5px;
+}
+#page_content {
+	width: 590px;
+	height: 390px;
+	overflow: auto;
+}
+a:link, a:visited {
+	color: #004EB4;
+	text-decoration: none;
+}
+
+table.vcenter {
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+/* Styles for login link section */
+
+#login {
+	text-align: right;
+	height: 20px;
+}
+
+/* Styles for login form */
+
+#loginform {
+	width: 400px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+#loginform .loginbox {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 350px;
+	height: 150px;
+}
+#loginform input, #loginform select {
+	font-size: 8pt;
+}
+#loginbackground {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#loginbackground img {
+	width: 100%;
+	height: auto;
+}
+
+.loginheader {
+	margin-bottom: 1em;
+	text-align: center;
+}
+.logincontent {
+	text-align: left;
+	position: relative;
+	width: 350px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#loginform .account_text {font-weight:bold; position:absolute; left:0; top:0; width:70px; text-align: right;}
+#loginform .account_input_content {position:absolute; left:80px; top:0; width:150px;}
+#loginform .create_account {position:absolute; left:240px; top:0;}
+#loginform .manage_account {position:absolute; left:240px; top:0;}
+
+#loginform .password_text {font-weight:bold; position:absolute; left:0; top:20px; width:70px; text-align: right;}
+#loginform .password_input_content {position:absolute; left:80px; top:20px;}
+#loginform .password_input_content input {width:150px;}
+#loginform .forgot_password {position:absolute; left:240px; top:20px;}
+
+#loginform .save_password {position:absolute; left:80px; top:40px;}
+#loginform .save_account {position:absolute; left:240px; top:40px;}
+#loginform .delete_account {position:absolute; left:240px; top:40px;}
+
+#loginform .login_button {text-align:center; width:100%; position:absolute; left:0; top: 70px;}
+
+#loginform select.account_input {width: 150px;}
+#loginform input.account_input {display:none;}
+#loginform.other select.account_input {width: 60px;}
+#loginform.other input.account_input {display:block; width:80px; position:absolute; left:70px;}
+
+#loginform .create_account {display:none;}
+#loginform .manage_account {display:none;}
+#loginform .save_password {display:none;}
+#loginform .save_account {display:none;}
+#loginform .delete_account {display:none;}
+#loginform .password_text {display:none;}
+#loginform .password_input_content {display:none;}
+#loginform .forgot_password {display:none;}
+#loginform.other .create_account, #loginform.guest .create_account {display:block;}
+#loginform.saved .manage_account {display:block;}
+#loginform.other .save_password, #loginform.saved .save_password {display:block;}
+#loginform.other .save_account {display:block;}
+#loginform.saved .delete_account {display:block;}
+#loginform.saved .password_text, #loginform.other .password_text {display:block;}
+#loginform.saved .password_input_content, #loginform.other .password_input_content {display:block;}
+#loginform.saved .forgot_password, #loginform.other .forgot_password {display:block;}
+
+/*
+	If extra checkboxes are used, .login_button should be moved down, and
+	.login_content and .loginbox should be resized appropriately. In this
+	default stylesheet, each line is 20px.
+*/
+#login_exchecks {position: absolute; left:80px; top:60px;}
+
+#loginmessage {
+	text-align: center;
+	margin: 5px 0;
+}
+
+/* Styles for preferences box */
+
+#prefspop {
+	width: 400px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+}
+#prefspop .prefsbox {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 350px;
+	height: 150px;
+}
+#prefspop table.prefstable {
+	margin: 0 auto;
+	text-align: left;
+}
+#prefspop input, #prefsform select {
+	font-size: 8pt;
+}
+#prefsbackground {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+/* Styles for about box */
+
+div#aboutpop {
+	width: 400px;
+	height: 140px;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#aboutpop div.aboutbox {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 380px;
+	height: 130px;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 8pt;
+}
+#aboutbackground {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.aboutbox > div {
+	margin: 0;
+}
+#aboutpop #abouttitle {
+}
+#aboutpop #aboutdesc {
+}
+#aboutpop #aboutcopyright {
+	position: absolute;
+	width: 380px;
+	left: 10px;
+	bottom: 5px;
+}
+#aboutpop #aboutversion {
+	position: absolute;
+	width: 380px;
+	left: 10px;
+	bottom: 15px;
+}
+#aboutpop #aboutbyondlogo {
+	display: none;
+	/* width: 210px;
+	height: 62px;
+	background: url("byond_logo.png");
+	margin: 0 5px; */
+}
+#aboutpop #aboutbyondlogo a {
+	/* display: block;
+	width: 210px;
+	height: 62px; */
+}
+#aboutpop #aboutbyond {
+	font-size: 10pt;
+}
+#aboutpop #aboutlibs {
+	font-size: 8pt;
+}
+#aboutpop #aboutlibs p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+/* Progress bar */
+
+#progress {
+	z-index: 1;
+	position: relative;
+	display: none;
+	margin-top: 5px;
+	height: 20px;
+}
+#progressmessage {
+	z-index: 3;
+	position: relative;
+	text-align: center;
+}
+#progressbar {
+	z-index: 2;
+	position: absolute;
+	height: 100%;
+	background: #5589CD;
+}
+
+/* Live game listings */
+
+.title {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom:10px;
+	text-align: center;
+}
+.world {
+	margin-bottom: 10px;
+}
+.join {
+	float: right;
+	margin: 0 0 5px 5px;
+	padding: 3px 10px;
+	font-size:10pt;
+	background: #eee;
+	border: 1px solid #999;
+}
+.join:hover {
+	background: #ccc;
+}
+.join a, .join a:hover {
+	color: black;
+	text-decoration: none;
+}
+.status {
+	font-size: 10pt;
+	font-weight: bold;
+}
+.player_total {
+	font-size: 9pt;
+	font-weight: bold;
+}
+.player {
+	display: inline-block;
+}
+
+/* Subscription styles: These are applied to the body */
+
+.subscriber {}	/* Any subscriber */
+.non_subscriber {}	/* Logged in but not a subscriber */
+.finite_subscriber {}	/* Subscription will expire */
+.lifetime_subscriber {}	/* Subscription will never expire */

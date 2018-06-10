@@ -1,0 +1,186 @@
+macro "macro"
+	elem 
+		name = "North+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "South+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "East+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "West+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "Center+REP"
+		command = ".center"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "win_debug"
+	elem "win_debug"
+		type = MAIN
+		pos = 218,0
+		size = 300x400
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Debug"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = false
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = ""
+		menu = ""
+		on-close = ""
+	elem "output"
+		type = OUTPUT
+		pos = 0,0
+		size = 300x400
+		anchor1 = none
+		anchor2 = none
+		font-family = "Consolas"
+		font-size = 10
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+
+window "win_main"
+	elem "win_main"
+		type = MAIN
+		pos = 218,0
+		size = 620x340
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Stuff"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = ""
+		on-close = ""
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 620x340
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = none
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 0
+		text-mode = false
+		letterbox = false
+		zoom = 0
+		on-show = ""
+		on-hide = ""
+		style = ""
+
