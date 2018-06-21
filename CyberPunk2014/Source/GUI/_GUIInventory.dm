@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file provides the definition for the GUIInventory object, which represents the inventory menu in-game.
+*/
+
 client/proc
 	openInventory()
 		if(src.focus != src) return
