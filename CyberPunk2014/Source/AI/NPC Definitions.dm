@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file provides database-like definitions for the different enemies in the game.
+Behaviors are not defined here; only attributes and stats.
+*/
 Enemy
 	isHostile = 1
 	parent_type = /actor/humanoid/AI
