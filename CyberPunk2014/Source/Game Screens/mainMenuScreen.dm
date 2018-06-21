@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the implementation of the main menu gamescreen. It handles the creation and behaviors and logic for the main menu.
+*/
 gameScreen/mainMenu
 	New()
 		.=..()
