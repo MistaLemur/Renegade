@@ -2,7 +2,7 @@
 Author: Miguel SuVasquez
 March 2014
 
-This file contains Storyevents for a test scenario.
+This file contains Story-event definitions for a test scenario.
 */
 client
 	var
