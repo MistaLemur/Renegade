@@ -1,4 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
 
+This file contains the definition and logic for the credits scene that can be entered from the main menu.
+*/
 
 GUICredits
 	parent_type = /GUIDatum
