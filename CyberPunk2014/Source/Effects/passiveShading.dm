@@ -1,6 +1,11 @@
 /*
+Author: Miguel SuVasquez
+March 2014
+
 This is a crude lighting system that multiplies a color to a sprite to give the illusion of changing lightsources.
 Lighting colors are defined tile-by-tile in the map.
+
+This is used to give a purple hue to outdoor locations.
 */
 
 atom
