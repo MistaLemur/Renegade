@@ -2,7 +2,7 @@
 Author: Miguel SuVasquez
 March 2014
 
-This file contains definitions for the actor class.
+This file contains definitions for the actor class and the humanoid child class.
 */
 var
 	const
