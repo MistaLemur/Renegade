@@ -1,3 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains EventTrigger definitions in a database-like format.
+Specific classes trigger a specific stroy event, indicated by the "missionEvent" attribute.
+*/
+
 EventTrigger
 
 	ghostOpensSecurityDoor
