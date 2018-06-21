@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines the interface for interaction events, like "Press E to open the door"
+*/
+
 atom/movable
 	var
 		canInteract
