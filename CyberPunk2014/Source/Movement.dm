@@ -1,3 +1,12 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file overrides some of the engine's built-in movement functions; 
+It adds some functionality where I can define which objects are allowed to clip through eachother's collision primitives.
+It adds an event for when an object gets collided with.
+It also adds some helpful functions for collision detection in the forwards direction of any character object.
+*/
 atom/movable
 	var
 		allowEnterTag
