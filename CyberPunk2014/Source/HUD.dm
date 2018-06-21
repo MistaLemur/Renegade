@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains logic for the HUD. Class definitions are elsewhere.
+*/
 client
 
 	var
