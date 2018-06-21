@@ -1,3 +1,13 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines specific story events and mission events. 
+These events usually include some dialog, some door changes, music changes, and so forth.
+
+Some events have a longer duration, like the finale of the demo where enemies are continuously attacking the player for a full minute.
+*/
+
 mission
 
 	tutorial_Mission
