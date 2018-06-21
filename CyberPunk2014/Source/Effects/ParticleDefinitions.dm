@@ -1,3 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains database-like definitions for the different particle emitters used in the game.
+These definitions mostly just contain differing parameters; a few of them have function overrides.
+*/
+
 particleEmitter
 
 	quadratic
