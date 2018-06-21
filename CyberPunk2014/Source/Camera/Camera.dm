@@ -1,3 +1,13 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines the Camera class. A Camera Object is the center of the screen, and follows the main character.
+It uses an exponential easing function to follow the main character (move % of the way to the target every frame).
+This lets the player character move away from the center of the screen to provide a sense of speed, and smooths out any of the
+player character's rapid accelerations.
+*/
+
 client
 	var
 		camera/camera
