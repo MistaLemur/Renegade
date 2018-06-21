@@ -1,3 +1,10 @@
+
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines a parallax class. The parallax class handles scrolling backgrounds based on the camera's x and y position.
+*/
 var
 	const
 		PARALLAX_LAYER = 0.1
