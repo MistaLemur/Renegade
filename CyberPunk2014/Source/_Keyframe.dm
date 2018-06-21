@@ -1,3 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the definition for the Keyframe class. 
+Despite the class's general name, it has a very specific purpose and is not especially robust.
+*/
+
 
 keyframe
 /*
