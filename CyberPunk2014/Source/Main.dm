@@ -1,3 +1,17 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for:
+General application parameters, like framerate and application name
+
+This file contains function bodies for:
+Application Entry point (the equivalent of a Main() function)
+Game loading
+Main update loop
+Events for window resizing
+
+*/
 world
 	fps = 30
 
