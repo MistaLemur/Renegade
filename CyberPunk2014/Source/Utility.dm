@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for a variety of useful functions; Most of these functions are math functions.
+*/
 proc
 	pixelDistY(atom/movable/A, atom/movable/B) //This returns the distance in pixels between A and B along the Y axis
 		var/Ay1 = (A.y-1)*tile_height
