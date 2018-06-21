@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the implementation of the gameAction game screen. This game screen represents when the player is controlling the
+player character. This screen is where most of the game takes place.
+*/
 gameScreen/gameAction
 
 	tick() //Game logic tick
