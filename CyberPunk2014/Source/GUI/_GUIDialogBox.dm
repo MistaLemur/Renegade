@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file provides a function to create a dialog box for story dialog.
+To achieve this, it also implements the GUIDialogBox object.
+*/
 proc
 	createDialogBox(text, icon/portrait, duration = -1, pauseGame = 1, clearEvent, takeFocus = 1, delKey = 1)
 		//text is a string
