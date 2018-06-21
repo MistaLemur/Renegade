@@ -1,3 +1,12 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file provides a crude function for checking Line-Of-Sight.
+It computes Line-Of-Sight by moving an invisible projectile along a line until it hits something or reaches a certain number of steps.
+It does not do a Ray-AABB collision computation.
+*/
+
 atom
 	var
 		blocksLoS
