@@ -1,8 +1,10 @@
-EquipmentRing
-	/*
-	This class defines behavior for the equipment ring, like the one from GTA V
-	*/
-	
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file implements the EquipmentRing class, which is a GTA-like equipment wheel that lets you quickly use or equip various items in the inventory.
+*/
+EquipmentRing	
 	parent_type = /GUIDatum
 
 	var
