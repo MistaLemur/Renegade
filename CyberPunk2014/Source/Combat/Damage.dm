@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file has all attribute and function definitions relating to damage events and damage computation.
+*/
 actor
 	var
 		armor
