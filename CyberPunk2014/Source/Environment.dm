@@ -1,12 +1,21 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for objects that make up the game's levels.
+*/
 atom
 	var
+		//The following variables define the ways that characters can interact with this environmental object.
+		//many of these are flags
+		
 		surfaceDrag = 1 //surfaceDrag is for when this atom is acting as the "ground" for an actor
 		//A surface drag of < 1 will make the surface more slippery.
 		//For example, for icy surfaces you could set surfaceDrag = 0
 
-		wallSlide = 0
-		cliffHang = 0
-		isScaffold = 0 //Scaffolds let you drop through them or jump through them. But you cannot hang off of them.
+		wallSlide = 0 //Can this surface be slid against slowly?
+		cliffHang = 0 //Can a character hang from the corner of this object?
+		isScaffold = 0 //Scaffolds are platforms but you can jump through them or fall through them.
 		isLadder = 0
 
 obj
