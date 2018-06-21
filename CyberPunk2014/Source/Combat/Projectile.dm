@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the class definition for Projectile. Projectiles are just bullets with a specified speed (and accelerations).
+These typically perform multiple physics steps per frame.
+*/
 atom
 	var
 		canGetHit=0
