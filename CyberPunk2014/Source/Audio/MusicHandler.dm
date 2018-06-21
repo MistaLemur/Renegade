@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines the musicHandler class. It can play songs and do fading transitions between different tracks.
+*/
 
 var/musicHandler/musicHandler = new()
 
