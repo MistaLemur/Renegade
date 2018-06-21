@@ -1,3 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the implementation of the item class.
+An item represents any object that a character can pick up, collect, and potentially use.
+This includes weapons, syringes, grenades, and even ammunition.
+*/
 item
 	parent_type = /obj
 	var
