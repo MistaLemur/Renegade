@@ -1,6 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for the actor class.
+*/
 var
 	const
-	 //I'm not sure where to put this.
 		gravity = 600 //This is an acceleration in terms of pixels per second per second
 
 
