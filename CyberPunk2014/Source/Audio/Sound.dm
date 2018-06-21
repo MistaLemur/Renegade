@@ -1,4 +1,11 @@
+/*
+Author: Miguel SuVasquez
+March 2014
 
+This file provides a basic playSound() function that fades sound based on distance. 3d sound environment is specifically disabled here.
+
+Additionally, this file defines the SoundEmitter class, which can play looping sounds whose volume fades with distance.
+*/
 
 proc
 	playSound(file,turf/tile,volume=100,range=21,falloff=5)
