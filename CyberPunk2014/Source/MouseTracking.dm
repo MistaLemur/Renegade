@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for all mouse movement events and mouse button events.
+*/
+
 //  add the mouse-tracking events to /atom...
 atom
 	//  when the mouse enters an atom for the first time
