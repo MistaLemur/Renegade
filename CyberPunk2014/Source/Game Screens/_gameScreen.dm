@@ -1,5 +1,14 @@
-//The gamescreen class handles game logic.
-//Since different screens handle logic differently, the main loop in the game only calls the tick() of the current screen.
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file implements the gamescreen class.
+A gamescreen is like a discrete state of the game, like the Main Menu, or a Load Character menu,
+or in-game where you control the player character.
+
+Different screens have different game logic and handle game logic differently;
+The main update loop calls the update function every frame for the active game screen.
+*/
 
 gameScreen
 	var
