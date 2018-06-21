@@ -1,3 +1,14 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains the definition for the particle class and particle emitter class.
+Particles generally do not interact with any other object in the game. They are usually just a sprite that moves in a predetermined fashion.
+
+Particle emitters create particles, sometimes on a regular interval, and manage the particles they create.
+Quadratic particle emitters just represent an emitter whose particles undergo constant acceleration, like steam from a vent or blood drops from a bullet impact.
+Parametric particle emitters represent particles that follow a parametric function; these don't necessarily undergo physics simulation.
+*/
 var
 	particleLimit = 150
 	numParticlesActive
