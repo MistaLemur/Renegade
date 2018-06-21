@@ -1,6 +1,10 @@
-//This file should enable debugging and contain debugging commands for the debugging console
-//Including this file will enable debugging features, and unincluding this file should disable debugging features.
+/*
+Author: Miguel SuVasquez
+March 2014
 
+This file should enable debugging and contain debugging commands for the debugging console
+Including this file will enable debugging features, and unincluding this file should disable debugging features.
+*/
 #define DEBUG
 
 client
