@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file contains definitions for the different items in the game.
+For example, all of the different pistols or the different healing syringes.
+*/
 weapon/gun
 
 	icon = 'SmallGuns.dmi'
