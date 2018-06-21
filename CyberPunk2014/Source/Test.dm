@@ -1,3 +1,9 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines some debugging output and classes for testing purposes, like a test wall class for testing platforming behaviors.
+*/
 actor/humanoid
 
 	player
