@@ -1,3 +1,10 @@
+/*
+Author: Miguel SuVasquez
+March 2014
+
+This file defines the player subclass of humanoids.
+Included in the definitions are update functions, interpreting key presses, triggering interaction events, some movement behaviors, and so forth.
+*/
 actor/humanoid
 	player
 
